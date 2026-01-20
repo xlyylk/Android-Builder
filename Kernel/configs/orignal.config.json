@@ -1,0 +1,46 @@
+
+[
+  {
+    "kernelSource": {
+      "name": "Mi10S",
+      "repo": "https://github.com/xlyylk/Xiaomi_Kernel_OpenSource",
+      "branch": "alioth-r-oss",
+      "device": "thyme",
+      "defconfig": "vendor/alioth_user_defconfig"
+    },
+    "toolchains": [
+      {
+        "name": "",
+        "repo": "",
+        "branch": "",
+        "binaryEnv": []
+      },
+      {
+        "name": "",
+        "url": "",
+        "binaryEnv": []
+      }
+    ],
+    "enableCcache": true,
+    "params": {
+      "ARCH": "",
+      "CC": "",
+      "externalCommands": {
+        "CROSS_COMPILE": "",
+        "CROSS_COMPILE_ARM32": "",
+        "CROSS_COMPILE_COMPAT": "",
+        "CLANG_TRIPLE": ""
+      }
+    },
+    "AnyKernel3": {
+      "use": true,
+      "release": true,
+      "custom": {
+        "repo": "",
+        "branch": ""
+      }
+    },
+    "enableKernelSU": true,
+    "enableLXC": false
+  }
+]
